@@ -48,6 +48,12 @@ text-align: center; }
 .bg-image>.size{
     font-size: 80px;
 }
+@media screen  and (min-width:0px) and (max-width:480px) {
+    .size{
+        font-size: 50px;
+    }
+    
+}
 .magic{
     background-color: #7ed4d1;
 }
